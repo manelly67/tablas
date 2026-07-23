@@ -451,3 +451,51 @@ footer > section > div {
   gap: 10px;
   padding-top: 2rem;
 }
+
+.tabla-precios {
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+.tabla-precios th,
+.tabla-precios td {
+  padding: 4px 8px;
+}
+
+/* Alinear números (precio y obsequio) a la derecha */
+.tabla-precios td:nth-child(2),
+.tabla-precios td:nth-child(3),
+.tabla-precios th:nth-child(2),
+.tabla-precios th:nth-child(3) {
+  text-align: right;
+}
+
+/* Módulo alineado a la izquierda */
+.tabla-precios td:first-child {
+  text-align: left;
+}
+
+/* Borde superior antes del total (como en la imagen) */
+.tabla-precios .fila-total td {
+  border-top: 1px solid #000;
+  padding-bottom: 50px;
+}
+
+.tabla-renovaciones {
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+.tabla-renovaciones th,
+.tabla-renovaciones td {
+  padding: 4px 8px;
+}
+
+.tabla-renovaciones td:nth-child(2),
+.tabla-renovaciones th:nth-child(2) {
+  text-align: right;
+}
+
+.tabla-renovaciones td:first-child {
+  text-align: left;
+}
