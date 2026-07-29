@@ -2,6 +2,7 @@ class Contenido {
   constructor(value) {
     this.id = value;
     this.titleAbout = '';
+    this.middleContent = [];
     this.textContentAbout = '';
     this.subtitle1 = '';
     this.headContactMe = '';

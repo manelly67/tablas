@@ -39,7 +39,8 @@ function footerDiv(parentDiv) {
     "145px",
     );
 
-   
+    
+
     parentDiv.appendChild(footer);
     footer.appendChild(contactMe);
     contactMe.appendChild(contactMeHeading);
