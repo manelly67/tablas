@@ -13,7 +13,7 @@ const productor_gastos = 25;
 const productor_costos = 40;
 const productor_gestion = 25;
 const productor_suma_de_modulos = 115;
-const gestion_productor = 80;
+const gestion_productor = 90;
 
 const vendedor_ventas = 25;
 const vendedor_gastos = 25;
