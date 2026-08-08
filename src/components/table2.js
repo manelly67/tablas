@@ -4,14 +4,15 @@ import {
   vendedor_gestion,
   vendedor_ventas,
 } from "../assets/prices";
+import { arrayProjects } from "../assets/text-content";
 
 function insertTable2(parentDiv) {
   // Datos de la tabla
   const filas = [
-    { modulo: "Módulo de VENTAS", precio: vendedor_ventas, obsequio: 2 },
-    { modulo: "Módulo de GASTOS", precio: vendedor_gastos, obsequio: 2 },
+    { modulo: arrayProjects[0]["projectDescription4_array"][4][0], precio: vendedor_ventas, obsequio: 2 },
+    { modulo: arrayProjects[0]["projectDescription4_array"][4][1], precio: vendedor_gastos, obsequio: 2 },
     {
-      modulo: "Módulo de GESTIÓN CONSOLIDADA",
+      modulo: arrayProjects[0]["projectDescription4_array"][4][3],
       precio: vendedor_gestion,
       obsequio: 2,
     },
@@ -32,7 +33,7 @@ function insertTable2(parentDiv) {
   const thPrecio = document.createElement("th");
   thPrecio.textContent = "us$";
   const thObsequio = document.createElement("th");
-  thObsequio.textContent = "gráficos de obsequio";
+  thObsequio.textContent = arrayProjects[0]["projectDescription4_array"][4][5];
 
   trHead.append(thVacio, thPrecio, thObsequio);
   thead.appendChild(trHead);
@@ -72,7 +73,7 @@ function insertTable2(parentDiv) {
   const trCompleta = document.createElement("tr");
   trCompleta.className = "fila-completa";
   const tdCompletaModulo = document.createElement("td");
-  tdCompletaModulo.textContent = "Sistema de Gestión Completa";
+  tdCompletaModulo.textContent = arrayProjects[0]["projectDescription4_array"][4][4];
   const tdCompletaPrecio = document.createElement("td");
   tdCompletaPrecio.textContent = gestion_vendedor;
   const tdCompletaObsequio = document.createElement("td");

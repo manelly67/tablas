@@ -91,7 +91,7 @@ function description(parentDiv) {
             divRenglon.appendChild(renglon);
           });
 
-          description4.textContent = "RENOVACIONES años siguientes";
+          description4.textContent = arrayProjects[0]["projectDescription4_array"][5];
           insertRenovaciones(divD);
 
           if (x.getAttribute("id") === "langES") {

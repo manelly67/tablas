@@ -12,7 +12,10 @@ project1.textContentAbout =
   "Desarrollé un sistema de gestión en Google Sheets que ayuda a controlar las principales áreas del negocio. Sin pagar una suscripción mensual y sin necesidad de conocimientos técnicos. Utiliza tablas dinámicas y estructuradas para generar consolidados automáticos por mes, año, categorías y parámetros varios.  Se implementan fórmulas avanzadas como QUERY, FILTER, INDEX, MATCH y VLOOKUP para extraer y consolidar datos complejos bajo solicitud específica, garantizando precisión y agilidad en el análisis. Se incluye un menú personalizado con funciones diseñadas en Google Apps Script para automatizar tareas repetitivas o facilitar el uso de la herramienta a personas sin conocimientos técnicos.";
 project1.subtitle1 = "Diseño estructurado mediante módulos";
 project1.headContactMe = "Contáctame";
-project1.textContactMe = `Soy ${name}, si quieres un diseño para ti, ponte en contacto conmigo. Escribe directo al email`;
+project1.textContactMe = [
+  `Soy ${name}, si quieres un diseño para ti, ponte en contacto conmigo. Escribe directo al email`,
+  "o por LinKedIn",
+];
 project1.projectName = "";
 project1.projectDescription1 = "Gestión para PRODUCTOR";
 
@@ -81,10 +84,19 @@ project1.arrayAbout = [
 ];
 // información adicional
 project1.projectDescription4_array = [
-  'Prueba esta página web gratuita para control de tus gastos',
-  'Módulo de gestión consolidada',
-  'Módulos individuales',
-  'Compra única del módulo de costo, no requiere renovación.'
+  "Prueba esta página web gratuita para control de tus gastos",
+  "Módulo de gestión consolidada",
+  "Módulos individuales",
+  "Compra única del módulo de costo, no requiere renovación.",
+  [
+    "Módulo de Ventas",
+    "Módulo de Gastos",
+    "Módulo de Costos",
+    "Módulo de Gestión Consolidada",
+    "Sistema de Gestión Completo",
+    "Gráficos gratis",
+  ],
+  "RENOVACIONES años siguientes",
 ];
 
 project1.language = "español";
