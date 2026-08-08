@@ -1,4 +1,5 @@
 import coffeeteaIcon from "../assets/screenshot-S1.jpg";
+import { arrayProjects } from "../assets/text-content";
 
 
 function addCoffeetea(parentDiv){
@@ -9,7 +10,7 @@ div.className = "coffeetea-div";
 const subdiv = document.createElement("div");
 
 const text = document.createElement("p");
-text.textContent = "Prueba esta página web gratuita para control de tus gastos";
+text.textContent = arrayProjects[0]["projectDescription4_array"][0];
 
 
 const enlaceCoffeetea = document.createElement("a");

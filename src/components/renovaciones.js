@@ -1,11 +1,13 @@
+import { arrayProjects } from "../assets/text-content";
+import { renovacion_gestion, renovacion_individual } from "../assets/prices";
 
 function insertRenovaciones(parentDiv){
 
 
 // Datos de la tabla
 const filasRenovaciones = [
-  { modulo: "Módulo de gestión consolidada", precio: 10 },
-  { modulo: "Módulos individuales", precio: 5 },
+  { modulo: arrayProjects[0]["projectDescription4_array"][1], precio: renovacion_gestion },
+  { modulo: arrayProjects[0]["projectDescription4_array"][2], precio: renovacion_individual },
 ];
 
 // Crear tabla
@@ -46,7 +48,7 @@ parentDiv.appendChild(tablaRenovaciones);
 // Nota final
 const notaCompra = document.createElement("p");
 notaCompra.className = "nota-compra";
-notaCompra.textContent = "Compra única del módulo de costo, no requiere renovación.";
+notaCompra.textContent = arrayProjects[0]["projectDescription4_array"][3];
 parentDiv.appendChild(notaCompra);
 
 

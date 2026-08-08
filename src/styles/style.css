@@ -530,3 +530,40 @@ footer > section > div {
   padding-bottom: 20px;
   padding-right: 5px;
 }
+
+.descripcion-sistema {
+  text-align: left;
+}
+
+.descripcion-sistema > p {
+  margin: 10px 0;
+}
+
+.descripcion-sistema > ol.lista-principal {
+  list-style-position: outside;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.descripcion-sistema > ol.lista-principal > li {
+  margin-bottom: 15px;
+}
+
+.descripcion-sistema > ol.lista-principal > li > p {
+  margin: 5px 0 5px 0;
+}
+
+.descripcion-sistema ul {
+  list-style-position: outside;
+  padding-left: 25px;
+  margin: 10px 0 5px 0;
+}
+
+.descripcion-sistema ul li {
+  margin-bottom: 4px;
+}
+
+.descripcion-sistema > p {
+  font-size: 1rem;
+}

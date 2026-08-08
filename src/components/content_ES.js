@@ -1,5 +1,6 @@
 import { arrayProjects } from "../assets/text-content";
 import { description } from "./descriptionDiv";
+import { aboutDiv } from "./aboutDiv";
 
 
 const content_ES = (arg) => {
@@ -16,8 +17,11 @@ const content_ES = (arg) => {
 
   const firstParr = document.createElement("div");
   firstParr.className = "firstParr";
-  const txt1 = document.createElement("p");
-  txt1.textContent = arrayProjects[0]['textContentAbout'];
+  
+  aboutDiv(firstParr);
+
+  /*const txt1 = document.createElement("p");
+  txt1.textContent = arrayProjects[0]['textContentAbout'];*/
     
   const subtitle1 = document.createElement("h2");
   subtitle1.className= "subtitle";
@@ -29,7 +33,8 @@ const content_ES = (arg) => {
   content.appendChild(firstParr);
   middle.appendChild(textMiddle);
   middle.appendChild(textMiddle2);
-  firstParr.appendChild(txt1);
+ 
+ /* firstParr.appendChild(txt1);*/
   
 
   const divForParr = document.createElement("div");
