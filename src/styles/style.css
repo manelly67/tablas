@@ -366,7 +366,7 @@ span {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-
+ 
 }
 
 .hook>p {
@@ -386,6 +386,7 @@ span {
 
 .displayInRow>p {
   flex-wrap: wrap;
+  margin-left: 15px;
 }
 
 .price-tag {
@@ -578,4 +579,14 @@ footer>section>div {
 
 .descripcion-sistema>p {
   font-size: 1rem;
+}
+
+.divIconsFooter {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  min-width: 300px;
+  width: 95%;
 }

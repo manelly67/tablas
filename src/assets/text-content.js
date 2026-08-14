@@ -14,7 +14,7 @@ project1.subtitle1 = "Diseño estructurado mediante módulos";
 project1.headContactMe = "Contáctame";
 project1.textContactMe = [
   `Soy ${name}, si quieres un diseño para ti, ponte en contacto conmigo. Escribe directo al email`,
-  "o por LinKedIn",
+  "o por",
 ];
 project1.projectName = "";
 project1.projectDescription1 = "Gestión para PRODUCTOR";
