@@ -9,6 +9,7 @@
   --color-tag: #cd5454;
   --text-tag: #e9e7db;
   --email-text-span: darkblue;
+  --black-and-white: black;
 }
 
 .dark {
@@ -22,6 +23,7 @@
   --color-tag: #97968e;
   --text-tag: #443f31;
   --email-text-span: lightblue;
+  --black-and-white: white;
 }
 
 body {
@@ -71,8 +73,15 @@ a {
 
 .centered {
   width: 95%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
+
+.centered > p {
+  margin: 0 auto;
+}
+
 
 
 section {
@@ -589,4 +598,8 @@ footer>section>div {
   max-width: 500px;
   min-width: 300px;
   width: 95%;
+}
+
+.textForVideo {
+  color: var(--black-and-white);
 }

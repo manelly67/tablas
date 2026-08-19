@@ -97,6 +97,7 @@ project1.projectDescription4_array = [
     "Gráficos gratis",
   ],
   "RENOVACIONES años siguientes",
+  "Observa el video de demostración",
 ];
 
 project1.language = "español";

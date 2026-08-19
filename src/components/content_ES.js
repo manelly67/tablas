@@ -1,6 +1,7 @@
 import { arrayProjects } from "../assets/text-content";
 import { description } from "./descriptionDiv";
 import { aboutDiv } from "./aboutDiv";
+import { divLinkToVideo } from "./divForVideo";
 
 
 const content_ES = (arg) => {
@@ -20,9 +21,7 @@ const content_ES = (arg) => {
   
   aboutDiv(firstParr);
 
-  /*const txt1 = document.createElement("p");
-  txt1.textContent = arrayProjects[0]['textContentAbout'];*/
-    
+      
   const subtitle1 = document.createElement("h2");
   subtitle1.className= "subtitle";
   subtitle1.textContent = arrayProjects[0]['subtitle1'];
@@ -34,7 +33,6 @@ const content_ES = (arg) => {
   middle.appendChild(textMiddle);
   middle.appendChild(textMiddle2);
  
- /* firstParr.appendChild(txt1);*/
   
 
   const divForParr = document.createElement("div");
@@ -52,7 +50,9 @@ const content_ES = (arg) => {
     divForHook.appendChild(hook_text);
   });
  content.appendChild(divForHook);
-  
+
+ 
+ divLinkToVideo(content,"video demostración hoja de gestión");
  
 
 }
