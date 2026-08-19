@@ -76,6 +76,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap:10px;
 }
 
 .centered > p {
@@ -602,4 +604,16 @@ footer>section>div {
 
 .textForVideo {
   color: var(--black-and-white);
+}
+
+.video-presentacion {
+  width: 90%;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+@media (min-width: 800px) {
+  .video-presentacion {
+    width: 60%;
+  }
 }
