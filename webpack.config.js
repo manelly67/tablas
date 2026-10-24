@@ -50,4 +50,7 @@ module.exports = {
       },
     ],
   },
+  performance: {
+    assetFilter: (assetFilename) => !/\.(mp4|webm|ogg)$/i.test(assetFilename),
+  },
 };

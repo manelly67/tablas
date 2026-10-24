@@ -58,7 +58,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-family: "Playfair Display", serif;
   font-weight: 300;
   font-style: normal;
@@ -382,7 +382,7 @@ span {
 
 .hook>p {
   font-family: "Playfair Display", serif;
-  font-size: large;
+  font-size: 1.5rem;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
@@ -559,15 +559,16 @@ footer>section>div {
   text-align: left;
 }
 
-.descripcion-sistema>p {
+.descripcion-sistema > p {
   margin: 10px 0;
+  font-size: 1.4rem;
 }
 
 .descripcion-sistema>ol.lista-principal {
   list-style-position: outside;
   padding-left: 20px;
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .descripcion-sistema>ol.lista-principal>li {
@@ -588,9 +589,6 @@ footer>section>div {
   margin-bottom: 4px;
 }
 
-.descripcion-sistema>p {
-  font-size: 1rem;
-}
 
 .divIconsFooter {
   margin: 0 auto;
@@ -616,4 +614,11 @@ footer>section>div {
   .video-presentacion {
     width: 60%;
   }
+}
+
+@media (max-width: 530px) {
+  .hook > p,.descripcion-sistema > p,.descripcion-sistema>ol.lista-principal  {
+    font-size: 1.2rem;
+  }
+
 }

@@ -49,11 +49,11 @@ const aboutDiv = (parentDiv) => {
   descItem3.textContent = arrayProjects[0]["arrayAbout"][4][1];
   item3.appendChild(descItem3);
   const subLista3 = document.createElement("ul");
-  arrayProjects[0]["arrayAbout"][4][2].forEach((texto) => {
+  /*arrayProjects[0]["arrayAbout"][4][2].forEach((texto) => {
     const li = document.createElement("li");
     li.textContent = texto;
     subLista3.appendChild(li);
-  });
+  });*/
   item3.appendChild(subLista3);
   listaPrincipal.appendChild(item3);
 

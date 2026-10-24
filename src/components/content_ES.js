@@ -1,3 +1,5 @@
+import videoGestion from "../assets/demo_video.mp4";
+import videoCostos from "../assets/demo_costos.mp4";
 import { arrayProjects } from "../assets/text-content";
 import { description } from "./descriptionDiv";
 import { aboutDiv } from "./aboutDiv";
@@ -52,8 +54,8 @@ const content_ES = (arg) => {
  content.appendChild(divForHook);
 
  
- divLinkToVideo(content,"video demostración hoja de gestión");
- 
+ divLinkToVideo(content,"video demostración hoja de gestión",videoGestion);
+ divLinkToVideo(content,"video demostración módulo de costos",videoCostos);
 
 }
 

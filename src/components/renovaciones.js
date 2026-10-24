@@ -7,7 +7,7 @@ function insertRenovaciones(parentDiv){
 // Datos de la tabla
 const filasRenovaciones = [
   { modulo: arrayProjects[0]["projectDescription4_array"][1], precio: renovacion_gestion },
-  { modulo: arrayProjects[0]["projectDescription4_array"][2], precio: renovacion_individual },
+ /* { modulo: arrayProjects[0]["projectDescription4_array"][2], precio: renovacion_individual },*/
 ];
 
 // Crear tabla
@@ -20,7 +20,7 @@ const trHeadRen = document.createElement("tr");
 
 const thVacioRen = document.createElement("th");
 const thPrecioRen = document.createElement("th");
-thPrecioRen.textContent = "us$";
+thPrecioRen.textContent = "";
 
 trHeadRen.append(thVacioRen, thPrecioRen);
 theadRen.appendChild(trHeadRen);
@@ -28,6 +28,7 @@ tablaRenovaciones.appendChild(theadRen);
 
 // Cuerpo
 const tbodyRen = document.createElement("tbody");
+tbodyRen.setAttribute("style", "font-size:2rem;");
 
 filasRenovaciones.forEach((f) => {
   const tr = document.createElement("tr");

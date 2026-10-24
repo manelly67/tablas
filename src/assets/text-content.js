@@ -21,6 +21,8 @@ project1.projectDescription1 = "Gestión para PRODUCTOR";
 
 project1.projectDescription2 = "Gestión para VENDEDOR";
 
+project1.projectDescription4 = "Módulo de COSTOS";
+
 project1.projectDescription3 = "El precio incluye";
 project1.projectDescription3_array = [
   "Personalización",
@@ -38,45 +40,47 @@ project1.arrayAbout = [
   "📁 Contiene:",
   [
     "🗂️ Catálogo de productos",
-    ["✅ Personalizable.", "✅ Puede ser para comerciantes o productores."],
+    [/*"✅ Personalizable.", "✅ Puede ser para comerciantes o productores."*/],
   ],
   [
     "💰 Gestión de ventas",
     [
-      "📝 Registro de ventas.",
+      /*"📝 Registro de ventas.",
       "🛒 Canal de venta.",
       "⚙️ Parámetro adicional configurable.",
-      "🔄 Consolidación automática mediante tablas dinámicas.",
+      "🔄 Consolidación automática mediante tablas dinámicas.",*/
     ],
   ],
   [
     "🧮 Costeo de ventas",
-    "Calcula automáticamente el costo de lo vendido.",
+    
     [
+      /*"Calcula automáticamente el costo de lo vendido.",
       "🏬 Empresas comerciales → toma el precio de compra.",
-      "🏭 Empresas productoras → toma el costo de fabricación.",
+      "🏭 Empresas productoras → toma el costo de fabricación.",*/
     ],
   ],
   [
     "💸 Gestión de gastos",
     [
-      "📝 Registro de gastos.",
+      /*"📝 Registro de gastos.",
       "🏷️ Clasificación libre del usuario (categoría de gasto, proveedores).",
-      "🧾 Clasificación gerencial definida por el sistema.",
+      "🧾 Clasificación gerencial definida por el sistema.",*/
     ],
   ],
   [
     "Estado de resultados gerencial",
-    "Integra automáticamente:",
+    "✨ Para mostrar el resultado económico del negocio.",
     [
+      /*"Integra automáticamente:",
       "💵 Ventas",
       "📦 Costo de ventas",
       "👷 Mano de obra",
       "🏗️ Depreciación",
       "🗃️ Gastos administrativos",
-      "📣 Gastos de ventas",
+      "📣 Gastos de ventas",*/
     ],
-    "✨ Para mostrar el resultado económico del negocio.",
+    
   ],
   [
     "🤖 Se incluye un menú personalizado con funciones diseñadas en Google Apps Script para automatizar tareas repetitivas o facilitar el uso de la herramienta a personas sin conocimientos técnicos.",
@@ -85,9 +89,9 @@ project1.arrayAbout = [
 // información adicional
 project1.projectDescription4_array = [
   "Prueba esta página web gratuita para control de tus gastos",
-  "Módulo de gestión consolidada",
+  "US$",
   "Módulos individuales",
-  "Compra única del módulo de costo, no requiere renovación.",
+  "Módulo de costo, no requiere renovación.",
   [
     "Módulo de Ventas",
     "Módulo de Gastos",
